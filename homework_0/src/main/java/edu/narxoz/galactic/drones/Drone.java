@@ -26,7 +26,7 @@ public abstract class Drone {
         return maxPayloadKg;
     }
 
-    protected void setStatus(DroneStatus status) {
+    public void setStatus(DroneStatus status) {
         this.status = status;
     }
 
